@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode; //type of the childern should be reactnode
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" suppressHydrationWarning className="dark">
       <body className={inter.className}>
         <div className="relative w-full flex justify-center items-center">
           <Navbar />
